@@ -1,26 +1,6 @@
 {
   "models": [
     {
-  "name": "Gemma-3-270M-IT",
-  "modelId": "google/gemma-3-270m-it",
-  "modelFile": "gemma-3-270m-it.safetensors",
-  "description": "Compact 270-million-parameter variant of Gemma 3, instruction-tuned (IT). Designed for on-device use with efficient inference, supporting multilingual text and (potentially) image input with up to 32K token context.",
-  "sizeInBytes": 536000000,
-  "estimatedPeakMemoryInBytes": 550000000,
-  "commitHash": "23cf460",
-  "llmSupportImage": false,
-  "defaultConfig": {
-    "topK": 50,
-    "topP": 0.95,
-    "temperature": 0.8,
-    "maxTokens": 2048,
-    "accelerators": "cpu"
-  },
-  "taskTypes": [
-    "llm_chat"
-  ]
-},
-    {
       "name": "Gemma-3n-E2B-it-int4",
       "modelId": "google/gemma-3n-E2B-it-litert-preview",
       "modelFile": "gemma-3n-E2B-it-int4.task",
