@@ -2,6 +2,7 @@
   "models": [
     {
       "name": "Gemma-3n-E2B-it-int4",
+      "displayName": "Gemma 3n E2B",
       "modelId": "google/gemma-3n-E2B-it-litert-preview",
       "modelFile": "gemma-3n-E2B-it-int4.task",
       "description": "Preview version of [Gemma 3n E2B](https://ai.google.dev/gemma/docs/gemma-3n). The current checkpoint only supports text and vision input, with 4096 context length.",
@@ -28,6 +29,7 @@
     },
     {
       "name": "Gemma-3n-E4B-it-int4",
+      "displayName": "Gemma 3n E4B",
       "modelId": "google/gemma-3n-E4B-it-litert-preview",
       "modelFile": "gemma-3n-E4B-it-int4.task",
       "description": "Preview version of [Gemma 3n E4B](https://ai.google.dev/gemma/docs/gemma-3n). The current checkpoint only supports text and vision input, with 4096 context length.",
@@ -50,6 +52,7 @@
     },
     {
       "name": "Gemma3-1B-IT q4",
+      "displayName": "Gemma 3 1B",
       "modelId": "litert-community/Gemma3-1B-IT",
       "modelFile": "Gemma3-1B-IT_multi-prefill-seq_q4_ekv2048.task",
       "description": "A variant of [google/Gemma-3-1B-IT](https://huggingface.co/google/Gemma-3-1B-IT) with 4-bit quantization. The current checkpoint only supports text and vision input, with 4096 context length.",
