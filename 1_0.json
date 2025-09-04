@@ -100,5 +100,6 @@
         "llm_chat",
         "llm_prompt_lab"
       ]
+    }
   ]
 }
