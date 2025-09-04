@@ -78,7 +78,7 @@
     {
       "name": "Gemma-3-270m-it",
       "displayName": "Gemma 3 270m",
-      "modelId": "/litert-community/gemma-3-270m-it",
+      "modelId": "litert-community/gemma-3-270m-it",
       "modelFile": "gemma3-270m-it-q8.task",
       "description": "Preview version of [Gemma 3 270m](https://huggingface.co/google/gemma-3-270m-it). Total input context of 128K tokens for the 4B, 12B, and 27B sizes, and 32K tokens for the 1B and 270M sizes..",
       "sizeInBytes": 303950933,
